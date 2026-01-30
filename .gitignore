@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Mac
+.DS_Store
+
+# Airflow logs
+logs/
+*.log
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Spark / Dataproc
+metastore_db/
+spark-warehouse/
+
+# Jupyter
+.ipynb_checkpoints/
