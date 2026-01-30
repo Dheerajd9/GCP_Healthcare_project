@@ -4,6 +4,13 @@
 
 ## Project Overview
 
+- Built an end-to-end Healthcare Revenue Cycle Management (RCM) data platform on GCP
+- Ingested EMR data from Cloud SQL (MySQL), insurance claims (flat files), and reference data (CPT/ICD/NPI)
+- Implemented Bronze → Silver → Gold medallion architecture using Dataproc (Spark) and BigQuery
+- Applied SCD Type 2 for historical tracking and metadata-driven ingestion
+- Orchestrated pipelines using Cloud Composer (Airflow) with CI/CD via GitHub + Cloud Build
+
+
 This project implements an end-to-end data lake and analytics pipeline on Google Cloud Platform (GCP) for the Healthcare Revenue Cycle Management (RCM) domain.
 
 The objective is to ingest, standardize, and transform healthcare data from multiple source systems—Electronic Medical Records (EMR), insurance claims, and reference datasets—and make it analytics-ready using a Bronze → Silver → Gold (Medallion) architecture.
